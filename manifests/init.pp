@@ -81,7 +81,7 @@ class confluence (
     # Shut it down in preparation for upgrade.
     if versioncmp($version, $facts['confluence_version']) > 0 {
       notify { 'Attempting to upgrade CONFLUENCE': }
-      exec { $stop_confluence: before => Class['confluence::facts'] }
+      exec { $stop_confluence: before => Class['confluence::facts'] } # lint:ignore:exec_idempotency
     }
   }
 
