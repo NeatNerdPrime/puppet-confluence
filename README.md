@@ -1,6 +1,6 @@
 # puppet-confluence
 
-[![Build Status](https://travis-ci.org/voxpupuli/puppet-confluence.png?branch=master)](https://travis-ci.org/voxpupuli/puppet-confluence)
+![Build Status](https://github.com/voxpupuli/puppet-confluence/actions/workflows/ci.yml/badge.svg?branch=master)
 [![Code Coverage](https://coveralls.io/repos/github/voxpupuli/puppet-confluence/badge.svg?branch=master)](https://coveralls.io/github/voxpupuli/puppet-confluence)
 [![Puppet Forge](https://img.shields.io/puppetforge/v/puppet/confluence.svg)](https://forge.puppetlabs.com/puppet/confluence)
 [![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/puppet/confluence.svg)](https://forge.puppetlabs.com/puppet/confluence)
